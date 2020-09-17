@@ -225,6 +225,11 @@
   ```shell
   goctl rpc proto -src transform.proto
   ```
+  如遇报错：exec: "protoc-gen-go": executable file not found in $PATH
+  请执行
+  ```shell
+  go get -u github.com/golang/protobuf/protoc-gen-go
+  ```shell
 
   文件结构如下：
 
